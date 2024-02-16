@@ -1,0 +1,21 @@
+{
+  "name": "cron_parser",
+  "version": "1.0.0",
+  "description": "Parses Cron Expression and console output in certain format",
+  "main": "cron_parser.js",
+  "scripts": {
+    "setup": "chmod +x src/cron_parser.js",
+    "start": "node src/cron_parser.js",
+    "test": "mocha test/**/*.js"
+  },
+  "keywords": [],
+  "author": "Prakash",
+  "license": "ISC",
+  "engines": {
+    "node": "20.10.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}
