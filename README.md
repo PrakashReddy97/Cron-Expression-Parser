@@ -2,6 +2,10 @@ Cron Expression Parser
 
 Cron Expression Parser is a utility that parses Cron expressions and outputs the schedule in console. This script is developed using NodeJs, and mocha, chai are used for unit testing.
 
+#Supported OS: Linux/MacOS
+
+#Important Note: This below pre-requisites need to be explicitly downloaded if this is being run in windows OS. Mentioned commands may not run as expected like nvm, chmod
+
 #Prerequisites:
 
 1. Node.js version 20.10.0. The project is developed and tested with this Node.js version for compatibility.
@@ -42,4 +46,10 @@ This will install and use the Node.js version specified for the project.
 
 ```
 ./src/cron_parser.js "*/15 0 1,15 * 1-5 /usr/bin/find"
+```
+
+(OR)
+
+```
+npm start "*/15 0 1,15 * 1-5 /usr/bin/find"
 ```
